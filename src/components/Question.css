@@ -1,0 +1,73 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 35px;
+    background: rgba(255, 255, 255, 0.15); /* Light glass-like transparency */
+    backdrop-filter: blur(10px); /* Blur effect for a frosted glass look */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.question-container:hover {
+    transform: translateY(-5px);
+}
+
+
+.question-container h2 {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+    letter-spacing: 1px;
+}
+
+
+.option-button {
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    background: linear-gradient(90deg, #ff758c, #ff7eb3);
+    background-size: 200%;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(255, 118, 167, 0.4);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.option-button:hover {
+    background-position: right center;
+    box-shadow: 0 8px 20px rgba(255, 118, 167, 0.5);
+    transform: scale(1.05);
+}
+
+
+.option-button:disabled {
+    background: #777;
+    cursor: not-allowed;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+
+.question-container div {
+    color: #ff4b5c;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+}

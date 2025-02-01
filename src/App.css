@@ -1,0 +1,82 @@
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(45deg, #ff758c, #ff7eb3, #e88eff, #9198e5);
+  background-size: 300% 300%;
+  animation: gradientAnimation 8s ease infinite;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 40px 20px; 
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.App h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 
+               0 0 20px rgba(255, 105, 180, 0.5);
+  letter-spacing: 2px;
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.App h1:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 
+               0 0 25px rgba(255, 105, 180, 0.6);
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.container {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(12px);
+  padding: 30px; 
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 650px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.container:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .App h1 {
+    font-size: 34px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 25px;
+  }
+}

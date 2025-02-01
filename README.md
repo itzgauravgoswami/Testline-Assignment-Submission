@@ -22,7 +22,7 @@ Follow the steps below to set up and run the project locally:
 ## Demo Video
 **Link for the Video**
 
-**(https://youtu.be/RlmDS5JtVvk)**
+**https://youtu.be/RlmDS5JtVvk**
 
 ## Screenshots
 

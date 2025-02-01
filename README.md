@@ -26,18 +26,18 @@ Follow the steps below to set up and run the project locally:
 
 ## Demo Video
 
-[![Watch the video](../Quiz-Assignment/src/assets/V1.mp4)]
+[![Watch the video](./src/assets/V1.mp4)]
 
 ## Screenshots
 
 ### First Question Page
-![First Question Page](../Quiz-Assignment/src/assets/S1.png)
+![First Question Page](./src/assets/S1.png)
 
 ### Last Question Page
-![Last Question Page](../Quiz-Assignment/src/assets/S2.png)
+![Last Question Page](./src/assets/S2.png)
 
 ### Result Page
-![Result Page](../Quiz-Assignment/src/assets/S3.png)
+![Result Page](./src/assets/S3.png)
 
 ---
 

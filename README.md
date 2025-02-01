@@ -6,27 +6,22 @@ Follow the steps below to set up and run the project locally:
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/itzgauravgoswami/Testline-Assignment-Submission
    ```
 
-2. **Navigate to the project directory:**
-   ```sh
-   cd Quiz-Assignment
-   ```
-
-3. **Install dependencies:**
+2. **Install dependencies:**
    ```sh
    npm install
    ```
 
-4. **Start the development server:**
+3. **Start the development server:**
    ```sh
    npm run dev
    ```
 
 ## Demo Video
 
-[![Watch the video](./src/assets/V1.mp4)]
+[![Watch the video](https://youtu.be/RlmDS5JtVvk)]
 
 ## Screenshots
 

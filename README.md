@@ -20,7 +20,8 @@ Follow the steps below to set up and run the project locally:
    ```
 
 ## Demo Video
-(https://youtu.be/RlmDS5JtVvk)
+
+[![Watch the video](./src/assets/S3.png)](https://youtu.be/RlmDS5JtVvk)
 
 ## Screenshots
 
